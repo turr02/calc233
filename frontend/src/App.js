@@ -124,7 +124,7 @@ function App() {
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-8 text-center">
           <div className="mb-6">
-            <img src="https://images.pexels.com/photos/7616608/pexels-photo-7616608.jpeg?auto=compress&cs=tinysrgb&w=120&h=60&fit=crop" alt="Efficiency24" className="mx-auto mb-4 rounded-lg" />
+            <img src="/efficiency24-logo.svg" alt="Efficiency24" className="mx-auto mb-4 h-16 w-32" />
             <h1 className="text-2xl font-bold text-blue-600 mb-4">¡Sus resultados están en camino!</h1>
             <p className="text-gray-600">En breve te contactaremos.</p>
           </div>
