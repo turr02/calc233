@@ -1,0 +1,17 @@
+{
+  "short_name": "ROI Calculator",
+  "name": "Efficiency24 ROI Calculator",
+  "description": "Calculadora ROI para PYMEs argentinas - Bitrix24 CRM + Chatbot",
+  "icons": [
+    {
+      "src": "efficiency24-logo.svg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#007bff",
+  "background_color": "#ffffff",
+  "categories": ["business", "productivity", "finance"]
+}
