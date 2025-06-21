@@ -96,8 +96,7 @@ function App() {
     setIsSubmitting(true);
 
     try {
-      const backendUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8000';
-      
+      // Para Cloudflare Workers & Pages, las API functions están en /api/
       const submissionData = {
         calculation_input: {
           ...calculationData,
@@ -109,7 +108,7 @@ function App() {
         contact_info: contactData
       };
 
-      await axios.post(`${backendUrl}/api/submit-roi`, submissionData);
+      await axios.post('/api/submit-roi', submissionData);
       setShowConfirmation(true);
     } catch (error) {
       console.error('Error enviando datos:', error);
