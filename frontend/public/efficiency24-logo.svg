@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <!-- Logo Efficiency24 -->
+  <g transform="translate(20, 30)">
+    <!-- Engranaje -->
+    <g fill="#007bff">
+      <circle cx="40" cy="40" r="25" fill="none" stroke="#007bff" stroke-width="3"/>
+      <polygon points="40,15 45,25 55,20 50,30 60,35 50,40 55,50 45,45 40,55 35,45 25,50 30,40 20,35 30,30 25,20 35,25" fill="#007bff"/>
+    </g>
+    <!-- Flecha -->
+    <g fill="#333">
+      <polygon points="80,25 120,25 120,15 140,40 120,65 120,55 80,55" fill="#333"/>
+    </g>
+    <!-- Texto EFFICIENCY -->
+    <text x="20" y="100" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#333">EFFICIENCY</text>
+    <text x="320" y="100" font-family="Arial, sans-serif" font-size="24" font-weight="normal" fill="#007bff">24</text>
+  </g>
+</svg>
