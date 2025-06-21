@@ -1,0 +1,20 @@
+[env.production]
+name = "efficiency24-roi-calculator"
+main = "functions/api/submit-roi.js"
+compatibility_date = "2024-06-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Variables de entorno (configurar en Cloudflare dashboard)
+# ROI_CALCULATIONS = "KV namespace para almacenar cálculos"
+
+[[env.production.routes]]
+pattern = "*.efficiency24.com/api/*"
+zone_name = "efficiency24.com"
+
+[env.production.vars]
+ENVIRONMENT = "production"
+
+# KV Namespaces (opcional, para almacenar datos)
+# [[env.production.kv_namespaces]]
+# binding = "ROI_CALCULATIONS"
+# id = "your-kv-namespace-id"
