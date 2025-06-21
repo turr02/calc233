@@ -140,7 +140,7 @@ function App() {
         <div className="max-w-6xl mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
-              <img src="https://images.unsplash.com/photo-1462556791646-c201b8241a94?auto=format&fit=crop&w=150&h=75&q=80" alt="Efficiency24" className="h-12 rounded" />
+              <img src="/efficiency24-logo.svg" alt="Efficiency24" className="h-12 w-24" />
               <h1 className="text-2xl font-bold text-blue-600">Calculadora ROI</h1>
             </div>
             <p className="text-gray-600 text-sm">Bitrix24 CRM + Chatbot para PYMEs</p>
